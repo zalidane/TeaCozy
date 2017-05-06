@@ -42,3 +42,27 @@ header a{
   background-color: black;
   width: 1200px;
 }
+
+.featured{
+  width: 1000px;
+}
+
+.teas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tea img{
+  width: 300px;
+  height: 200px;
+}
+
+.tea h3{
+  margin-top: 10px;
+}
+
+.spacer{
+  width: 50px;
+}
