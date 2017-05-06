@@ -5,6 +5,7 @@ body{
   color: seashell;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
 }
 
 header{
@@ -13,6 +14,10 @@ header{
   justify-content: space-between;
   height: 69px;
   border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+  z-index: 1;
+  width: 100%;
 }
 
 header img{
@@ -65,4 +70,43 @@ header a{
 
 .spacer{
   width: 50px;
+}
+
+.locations-container{
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.locations{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  width: 300px;
+  height: 230px;
+  margin: 0px 20px;
+  opacity: 1;
+}
+
+footer{
+
+}
+
+.info{
+  height: 200px;
+}
+
+.copyright{
+  margin-left: 20px;
+  text-align: left;
 }
